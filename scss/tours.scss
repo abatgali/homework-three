@@ -1,0 +1,39 @@
+.tours {
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    .cards {
+    color: white;
+        
+        display: flex;
+        flex-direction: row;
+        gap: 55px;
+
+        .card {
+            height: 304px;
+            width: 236px;
+        }
+
+        #first {
+            background-image: url(../images/special-offer-01.jpg);
+            background-size: cover;
+        }
+
+
+        #second {
+            background-image: url(../images/special-offer-02.jpg);
+            background-size: cover;
+
+        }
+    
+        
+        #third {
+            background-image: url(../images/tour/tour-02.jpg);
+            background-size: cover;
+
+        }
+    }
+
+}

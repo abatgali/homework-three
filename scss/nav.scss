@@ -1,0 +1,24 @@
+nav {
+
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    align-items: center;
+
+    .company {
+        width: 92px;
+        height: 42px;
+        
+    }
+
+    div {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        height: 42px;
+    }
+
+}

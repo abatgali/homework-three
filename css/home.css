@@ -1,0 +1,13 @@
+.home .hero {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.home .learn-more {
+  padding: 5px 15px;
+  background-color: blue;
+  width: 100px;
+}

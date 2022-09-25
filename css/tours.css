@@ -1,0 +1,26 @@
+.tours .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 55px;
+}
+.tours .cards .card {
+  height: 304px;
+  width: 236px;
+}
+.tours .cards #first {
+  background-image: url(../images/special-offer-01.jpg);
+  background-size: cover;
+}
+.tours .cards #second {
+  background-image: url(../images/special-offer-02.jpg);
+  background-size: cover;
+}
+.tours .cards #third {
+  background-image: url(../images/tour/tour-02.jpg);
+  background-size: cover;
+}

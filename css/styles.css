@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: "Gill Sans", sans-serif;
+}
+html a, body a {
+  text-decoration: none;
+  color: white;
+}
+html h1, body h1 {
+  font-family: "Proxima Nova";
+  font-size: 60px;
+}
+html .button, body .button {
+  padding: 1em;
+  background-color: #79ADDC;
+  display: inline-block;
+  color: white;
+}
+html .learn-more, body .learn-more {
+  padding: 1em;
+  background-color: #79ADDC;
+  display: inline-block;
+  color: white;
+  border-radius: 50%;
+}
+
+.site-container {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(/app/fonts/Proxima-Nova-Thin.otf);
+}
+nav {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .company {
+  width: 92px;
+  height: 42px;
+}
+nav div {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 42px;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.hero .details {
+  padding: 3em;
+}
+.hero p {
+  font-style: italic;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.tours {
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.tours .cards {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 55px;
+}
+.tours .cards .card {
+  height: 304px;
+  width: 236px;
+}
+.tours .cards #first {
+  background-image: url(../images/special-offer-01.jpg);
+  background-size: cover;
+}
+.tours .cards #second {
+  background-image: url(../images/special-offer-02.jpg);
+  background-size: cover;
+}
+.tours .cards #third {
+  background-image: url(../images/tour/tour-02.jpg);
+  background-size: cover;
+}
+
+footer {
+  padding: 1em;
+  background-color: #79ADDC;
+  color: white;
+}
+footer .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: small;
+  max-width: 800px;
+  margin: 0 auto;
+}
